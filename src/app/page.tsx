@@ -47,7 +47,7 @@ export default function LandingPage() {
       title="Azerbaijan’s 1st Gelateria"
       description="Indulge in our exquisite selection of Belgian and Italian chocolates and artisanal gelato. Crafted for true connoisseurs of sweet perfection."
       buttons={[{ text: "Order Now", href: "#products" }]}
-      imageSrc="http://img.b2bpic.net/free-photo/fruit-with-cakes-side-view_141793-4438.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/fruit-with-cakes-side-view_141793-4438.jpg?_wi=1"
       mediaAnimation="slide-up"
       avatars={[
         { src: "http://img.b2bpic.net/free-photo/friends-having-dinner-restaurant_23-2148018734.jpg", alt: "Friends having dinner at a restaurant" },
@@ -77,7 +77,7 @@ export default function LandingPage() {
         { title: "Artisanal Craftsmanship", description: "Handmade with care and attention to detail." },
         { title: "Unmatched Quality", description: "Every creation reflects our commitment to excellence." }
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/smiling-young-woman-applying-cream-baked-cookies-baking-tray_23-2148027925.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/smiling-young-woman-applying-cream-baked-cookies-baking-tray_23-2148027925.jpg?_wi=1"
       mediaAnimation="slide-up"
     />
   </div>
@@ -88,9 +88,9 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         { title: "Artisanal Sweets", description: "Authentic recipes redefined for modern palates.", buttonIcon: Zap, imageSrc: "http://img.b2bpic.net/free-photo/woman-puts-cinnabon-plate-family-party_169016-45009.jpg" },
-        { title: "Fresh Daily", description: "Gelato churned fresh every morning.", buttonIcon: Coffee, imageSrc: "http://img.b2bpic.net/free-photo/fruit-with-cakes-side-view_141793-4438.jpg" },
-        { title: "Luxury Gifting", description: "Elegant packaging for any special occasion.", buttonIcon: Gift, imageSrc: "http://img.b2bpic.net/free-photo/smiling-young-woman-applying-cream-baked-cookies-baking-tray_23-2148027925.jpg" },
-        { title: "Delivery in Baku", description: "Enjoy Cadoro from the comfort of your home.", buttonIcon: Truck, imageSrc: "http://img.b2bpic.net/free-photo/hand-dark-glove-is-holding-waffle-cone-with-delicious-creamy-ice-cream-background-lemon-sorbet-decorated-with-mint-waffle-cones-which-are-served-stone-slate-black-bac_639032-538.jpg" },
+        { title: "Fresh Daily", description: "Gelato churned fresh every morning.", buttonIcon: Coffee, imageSrc: "http://img.b2bpic.net/free-photo/fruit-with-cakes-side-view_141793-4438.jpg?_wi=2" },
+        { title: "Luxury Gifting", description: "Elegant packaging for any special occasion.", buttonIcon: Gift, imageSrc: "http://img.b2bpic.net/free-photo/smiling-young-woman-applying-cream-baked-cookies-baking-tray_23-2148027925.jpg?_wi=2" },
+        { title: "Delivery in Baku", description: "Enjoy Cadoro from the comfort of your home.", buttonIcon: Truck, imageSrc: "http://img.b2bpic.net/free-photo/hand-dark-glove-is-holding-waffle-cone-with-delicious-creamy-ice-cream-background-lemon-sorbet-decorated-with-mint-waffle-cones-which-are-served-stone-slate-black-bac_639032-538.jpg?_wi=1" },
       ]}
       title="Why Choose Cadoro"
       description="Discover what makes our collection unique."
@@ -104,7 +104,7 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "1", brand: "Cadoro", name: "Belgian Chocolate Truffle", price: "9.80 AZN", rating: 5, reviewCount: "120", imageSrc: "http://img.b2bpic.net/free-photo/hand-dark-glove-is-holding-waffle-cone-with-delicious-creamy-ice-cream-background-lemon-sorbet-decorated-with-mint-waffle-cones-which-are-served-stone-slate-black-bac_639032-538.jpg" },
+        { id: "1", brand: "Cadoro", name: "Belgian Chocolate Truffle", price: "9.80 AZN", rating: 5, reviewCount: "120", imageSrc: "http://img.b2bpic.net/free-photo/hand-dark-glove-is-holding-waffle-cone-with-delicious-creamy-ice-cream-background-lemon-sorbet-decorated-with-mint-waffle-cones-which-are-served-stone-slate-black-bac_639032-538.jpg?_wi=2" },
         { id: "2", brand: "Cadoro", name: "Artisan Gelato Scoop", price: "4.90 AZN", rating: 5, reviewCount: "95", imageSrc: "http://img.b2bpic.net/free-photo/leaves-kernels-around-present_23-2147886041.jpg" },
         { id: "3", brand: "Cadoro", name: "Chocolate Lampone", price: "12.50 AZN", rating: 5, reviewCount: "80", imageSrc: "http://img.b2bpic.net/free-photo/delectable-wafer-rolls-chocolate-coated-wafer-wooden-plate-marble_114579-84025.jpg" },
         { id: "4", brand: "Cadoro", name: "Gelato Truffle", price: "15.00 AZN", rating: 4, reviewCount: "45", imageSrc: "http://img.b2bpic.net/free-photo/indulgent-chocolate-truffles-wrapped-ornate-paper-generated-by-ai_188544-17978.jpg" },
