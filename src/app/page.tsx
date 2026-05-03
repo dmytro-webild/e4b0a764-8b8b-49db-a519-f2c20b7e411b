@@ -46,7 +46,7 @@ export default function LandingPage() {
       background={{ variant: "radial-gradient" }}
       title="Azerbaijan’s 1st Gelateria"
       description="Indulge in our exquisite selection of Belgian and Italian chocolates and artisanal gelato. Crafted for true connoisseurs of sweet perfection."
-      buttons={[{ text: "Order Now", href: "#products" }]}
+      buttons={[{ text: "View Our Menu", href: "#products" }]}
       imageSrc="http://img.b2bpic.net/free-photo/fruit-with-cakes-side-view_141793-4438.jpg?_wi=1"
       mediaAnimation="slide-up"
       avatars={[
