@@ -43,10 +43,11 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero" className="pt-12">
       <HeroBillboardCarousel
-      background={{ variant: "radial-gradient" }}
-      title="Azərbaycanın 1-ci Gelateria-sı"
-      description="Nadir Belçika və İtalyan şokoladları, həmçinin əl istehsalı dondurmalarımızla dad dünyasını kəşf edin. Şirin mükəmməlliyi sevənlər üçün xüsusi hazırlanıb."
-      buttons={[{ text: "Menyumuz", href: "#products" }]}
+      background={{ variant: "downward-rays-static" }}
+      title="Azərbaycanın İlk Gelato Sənəti"
+      description="Nadir Belçika şokoladları və ustalıqla hazırlanmış İtalyan gelato reseptlərinin mükəmməl vəhdəti. Hər bir dad, şirinlik və keyfiyyətin ən yüksək zirvəsini təmsil edir."
+      buttons={[{ text: "Menyumuz", href: "#products" }]
+      }
       mediaItems={[
         { imageSrc: "http://img.b2bpic.net/free-photo/fruit-with-cakes-side-view_141793-4438.jpg?_wi=1", imageAlt: "Premium cakes and fruits" },
         { imageSrc: "http://img.b2bpic.net/free-photo/hand-dark-glove-is-holding-waffle-cone-with-delicious-creamy-ice-cream-background-lemon-sorbet-decorated-with-mint-waffle-cones-which-are-served-stone-slate-black-bac_639032-538.jpg?_wi=1", imageAlt: "Artisanal Gelato" },
