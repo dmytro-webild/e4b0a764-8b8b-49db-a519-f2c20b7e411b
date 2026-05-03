@@ -7,7 +7,7 @@ import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import FeatureCardTwentySix from '@/components/sections/feature/FeatureCardTwentySix';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
-import HeroPersonalLinks from '@/components/sections/hero/HeroPersonalLinks';
+import HeroBillboardGallery from '@/components/sections/hero/HeroBillboardGallery';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import SplitAbout from '@/components/sections/about/SplitAbout';
@@ -42,21 +42,17 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero" className="pt-12">
-      <HeroPersonalLinks
-      background={{ variant: "downward-rays-static" }}
+      <HeroBillboardGallery
+      background={{ variant: "rotated-rays-static" }}
       title="Azərbaycanın İlk Gelato Sənəti"
-      linkCards={[
-        { 
-          title: "Premium İtalyan Gelato", 
-          description: "Gündəlik təzə hazırlanan, orijinal İtalyan reseptləri ilə zənginləşdirilmiş dadlar.",          button: { text: "Menyumuz", href: "#products" },
-          imageSrc: "http://img.b2bpic.net/free-photo/hand-dark-glove-is-holding-waffle-cone-with-delicious-creamy-ice-cream-background-lemon-sorbet-decorated-with-mint-waffle-cones-which-are-served-stone-slate-black-bac_639032-538.jpg?_wi=1"
-        },
-        { 
-          title: "Belçika Şokolad Kolleksiyası", 
-          description: "Zərif şokolad ustalıqları və lüks dadların harmoniyası.",          button: { text: "Kəşf Et", href: "#products" },
-          imageSrc: "http://img.b2bpic.net/free-photo/indulgent-chocolate-truffles-wrapped-ornate-paper-generated-by-ai_188544-17978.jpg?_wi=1"
-        }
+      description="Təbii inqrediyentlərlə hazırlanan əsl İtalyan gelato və premium Belçika şokolad dünyasına xoş gəlmisiniz."
+      buttons={[{ text: "Menyumuzu Kəşf Et", href: "#products" }]}
+      mediaItems={[
+        { imageSrc: "http://img.b2bpic.net/free-photo/hand-dark-glove-is-holding-waffle-cone-with-delicious-creamy-ice-cream-background-lemon-sorbet-decorated-with-mint-waffle-cones-which-are-served-stone-slate-black-bac_639032-538.jpg?_wi=1" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/indulgent-chocolate-truffles-wrapped-ornate-paper-generated-by-ai_188544-17978.jpg?_wi=1" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/smiling-young-woman-applying-cream-baked-cookies-baking-tray_23-2148027925.jpg?_wi=1" }
       ]}
+      mediaAnimation="blur-reveal"
     />
   </div>
 
