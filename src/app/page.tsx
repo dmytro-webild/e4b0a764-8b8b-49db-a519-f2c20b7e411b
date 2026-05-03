@@ -28,7 +28,7 @@ export default function LandingPage() {
         headingFontWeight="normal"
     >
       <ReactLenis root>
-  <div id="nav" data-section="nav">
+  <div id="nav" data-section="nav" className="pt-8">
       <NavbarLayoutFloatingInline
       navItems={[
         { name: "Ana Səhifə", id: "hero" },
@@ -41,7 +41,7 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="hero" data-section="hero">
+  <div id="hero" data-section="hero" className="pt-12">
       <HeroBillboardCarousel
       background={{ variant: "radial-gradient" }}
       title="Azərbaycanın 1-ci Gelateria-sı"
