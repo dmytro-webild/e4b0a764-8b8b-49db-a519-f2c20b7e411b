@@ -64,7 +64,7 @@ export default function LandingPage() {
           href: "#products",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/fruit-with-cakes-side-view_141793-4438.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/fruit-with-cakes-side-view_141793-4438.jpg?_wi=1"
       mediaAnimation="slide-up"
       avatars={[
         {
@@ -133,7 +133,7 @@ export default function LandingPage() {
           description: "Every creation reflects our commitment to excellence.",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/smiling-young-woman-applying-cream-baked-cookies-baking-tray_23-2148027925.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/smiling-young-woman-applying-cream-baked-cookies-baking-tray_23-2148027925.jpg?_wi=1"
       mediaAnimation="slide-up"
     />
   </div>
@@ -154,21 +154,21 @@ export default function LandingPage() {
           title: "Fresh Daily",
           description: "Gelato churned fresh every morning.",
           buttonIcon: "Coffee",
-          imageSrc: "http://img.b2bpic.net/free-photo/fruit-with-cakes-side-view_141793-4438.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/fruit-with-cakes-side-view_141793-4438.jpg?_wi=2",
           imageAlt: "A woman puts cinnabon on a plate at a family party",
         },
         {
           title: "Luxury Gifting",
           description: "Elegant packaging for any special occasion.",
           buttonIcon: "Gift",
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-young-woman-applying-cream-baked-cookies-baking-tray_23-2148027925.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/smiling-young-woman-applying-cream-baked-cookies-baking-tray_23-2148027925.jpg?_wi=2",
           imageAlt: "A woman puts cinnabon on a plate at a family party",
         },
         {
           title: "Delivery in Baku",
           description: "Enjoy Cadoro from the comfort of your home.",
           buttonIcon: "Truck",
-          imageSrc: "http://img.b2bpic.net/free-photo/hand-dark-glove-is-holding-waffle-cone-with-delicious-creamy-ice-cream-background-lemon-sorbet-decorated-with-mint-waffle-cones-which-are-served-stone-slate-black-bac_639032-538.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/hand-dark-glove-is-holding-waffle-cone-with-delicious-creamy-ice-cream-background-lemon-sorbet-decorated-with-mint-waffle-cones-which-are-served-stone-slate-black-bac_639032-538.jpg?_wi=1",
           imageAlt: "A woman puts cinnabon on a plate at a family party",
         },
       ]}
@@ -191,7 +191,7 @@ export default function LandingPage() {
           price: "9.80 AZN",
           rating: 5,
           reviewCount: "120",
-          imageSrc: "http://img.b2bpic.net/free-photo/hand-dark-glove-is-holding-waffle-cone-with-delicious-creamy-ice-cream-background-lemon-sorbet-decorated-with-mint-waffle-cones-which-are-served-stone-slate-black-bac_639032-538.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/hand-dark-glove-is-holding-waffle-cone-with-delicious-creamy-ice-cream-background-lemon-sorbet-decorated-with-mint-waffle-cones-which-are-served-stone-slate-black-bac_639032-538.jpg?_wi=2",
         },
         {
           id: "2",
