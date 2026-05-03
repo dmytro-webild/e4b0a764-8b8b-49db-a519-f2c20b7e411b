@@ -7,7 +7,7 @@ import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import FeatureCardTwentySix from '@/components/sections/feature/FeatureCardTwentySix';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
-import HeroBillboard from '@/components/sections/hero/HeroBillboard';
+import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import SplitAbout from '@/components/sections/about/SplitAbout';
@@ -42,26 +42,15 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroBillboard
+      <HeroBillboardCarousel
       background={{ variant: "radial-gradient" }}
       title="Azərbaycanın 1-ci Gelateria-sı"
       description="Nadir Belçika və İtalyan şokoladları, həmçinin əl istehsalı dondurmalarımızla dad dünyasını kəşf edin. Şirin mükəmməlliyi sevənlər üçün xüsusi hazırlanıb."
       buttons={[{ text: "Menyumuz", href: "#products" }]}
-      imageSrc="http://img.b2bpic.net/free-photo/fruit-with-cakes-side-view_141793-4438.jpg?_wi=1"
-      mediaAnimation="slide-up"
-      avatars={[
-        { src: "http://img.b2bpic.net/free-photo/friends-having-dinner-restaurant_23-2148018734.jpg", alt: "Friends having dinner at a restaurant" },
-        { src: "http://img.b2bpic.net/free-photo/crop-shot-cheese-cake_1301-642.jpg", alt: "Crop shot cheese cake" },
-        { src: "http://img.b2bpic.net/free-photo/cup-tea-with-ny-cheesecake-with-berry-sauce_114579-2316.jpg", alt: "A cup of tea with NY cheesecake with berry sauce" },
-        { src: "http://img.b2bpic.net/free-photo/sugar-powder-is-sprinkled-chocolate-pudding-glasses_140725-5079.jpg", alt: "Sugar powder is sprinkled over chocolate pudding glasses" },
-        { src: "http://img.b2bpic.net/free-photo/cream-pastry-bag-lady-with-baking-tool_1157-47274.jpg", alt: "Cream in a pastry bag. Lady with a baking tool." }
-      ]}
-      marqueeItems={[
-        { type: "text", text: "Premium Belçika Şokoladı" },
-        { type: "text", text: "Əl İstehsalı Dondurma" },
-        { type: "text", text: "Hər Gün Təzə" },
-        { type: "text", text: "Orijinal Reseptlər" },
-        { type: "text", text: "Bakının ən yaxşısı" }
+      mediaItems={[
+        { imageSrc: "http://img.b2bpic.net/free-photo/fruit-with-cakes-side-view_141793-4438.jpg?_wi=1", imageAlt: "Premium cakes and fruits" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/hand-dark-glove-is-holding-waffle-cone-with-delicious-creamy-ice-cream-background-lemon-sorbet-decorated-with-mint-waffle-cones-which-are-served-stone-slate-black-bac_639032-538.jpg?_wi=1", imageAlt: "Artisanal Gelato" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/indulgent-chocolate-truffles-wrapped-ornate-paper-generated-by-ai_188544-17978.jpg", imageAlt: "Belgian Chocolate Selection" }
       ]}
     />
   </div>
