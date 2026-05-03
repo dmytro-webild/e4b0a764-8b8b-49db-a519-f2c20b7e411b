@@ -7,7 +7,7 @@ import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import FeatureCardTwentySix from '@/components/sections/feature/FeatureCardTwentySix';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
-import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
+import HeroPersonalLinks from '@/components/sections/hero/HeroPersonalLinks';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import SplitAbout from '@/components/sections/about/SplitAbout';
@@ -42,16 +42,20 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero" className="pt-12">
-      <HeroBillboardCarousel
+      <HeroPersonalLinks
       background={{ variant: "downward-rays-static" }}
       title="Azərbaycanın İlk Gelato Sənəti"
-      description="Nadir Belçika şokoladları və ustalıqla hazırlanmış İtalyan gelato reseptlərinin mükəmməl vəhdəti. Hər bir dad, şirinlik və keyfiyyətin ən yüksək zirvəsini təmsil edir."
-      buttons={[{ text: "Menyumuz", href: "#products" }]
-      }
-      mediaItems={[
-        { imageSrc: "http://img.b2bpic.net/free-photo/fruit-with-cakes-side-view_141793-4438.jpg?_wi=1", imageAlt: "Premium cakes and fruits" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/hand-dark-glove-is-holding-waffle-cone-with-delicious-creamy-ice-cream-background-lemon-sorbet-decorated-with-mint-waffle-cones-which-are-served-stone-slate-black-bac_639032-538.jpg?_wi=1", imageAlt: "Artisanal Gelato" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/indulgent-chocolate-truffles-wrapped-ornate-paper-generated-by-ai_188544-17978.jpg?_wi=1", imageAlt: "Belgian Chocolate Selection" }
+      linkCards={[
+        { 
+          title: "Premium İtalyan Gelato", 
+          description: "Gündəlik təzə hazırlanan, orijinal İtalyan reseptləri ilə zənginləşdirilmiş dadlar.",          button: { text: "Menyumuz", href: "#products" },
+          imageSrc: "http://img.b2bpic.net/free-photo/hand-dark-glove-is-holding-waffle-cone-with-delicious-creamy-ice-cream-background-lemon-sorbet-decorated-with-mint-waffle-cones-which-are-served-stone-slate-black-bac_639032-538.jpg?_wi=1"
+        },
+        { 
+          title: "Belçika Şokolad Kolleksiyası", 
+          description: "Zərif şokolad ustalıqları və lüks dadların harmoniyası.",          button: { text: "Kəşf Et", href: "#products" },
+          imageSrc: "http://img.b2bpic.net/free-photo/indulgent-chocolate-truffles-wrapped-ornate-paper-generated-by-ai_188544-17978.jpg?_wi=1"
+        }
       ]}
     />
   </div>
