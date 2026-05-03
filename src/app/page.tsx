@@ -139,7 +139,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       faqs={[
-        { id: "q1", title: "Do you deliver?", content: "Yes, we offer delivery via Wolt throughout Baku." },
+        { id: "q1", title: "Do you deliver?", content: "Yes, we offer delivery via Wolt throughout Baku, covering central neighborhoods like Sabail, Nasimi, and Yasamal with an estimated delivery time of 30-45 minutes." },
         { id: "q2", title: "Are your chocolates Belgian?", content: "We use the finest Belgian chocolate for all our dark and milk collections." },
         { id: "q3", title: "Can I visit the shop?", content: "Yes, we look forward to welcoming you to Cadoro for the full experience." },
       ]}
