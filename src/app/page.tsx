@@ -50,7 +50,7 @@ export default function LandingPage() {
       mediaItems={[
         { imageSrc: "http://img.b2bpic.net/free-photo/fruit-with-cakes-side-view_141793-4438.jpg?_wi=1", imageAlt: "Premium cakes and fruits" },
         { imageSrc: "http://img.b2bpic.net/free-photo/hand-dark-glove-is-holding-waffle-cone-with-delicious-creamy-ice-cream-background-lemon-sorbet-decorated-with-mint-waffle-cones-which-are-served-stone-slate-black-bac_639032-538.jpg?_wi=1", imageAlt: "Artisanal Gelato" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/indulgent-chocolate-truffles-wrapped-ornate-paper-generated-by-ai_188544-17978.jpg", imageAlt: "Belgian Chocolate Selection" }
+        { imageSrc: "http://img.b2bpic.net/free-photo/indulgent-chocolate-truffles-wrapped-ornate-paper-generated-by-ai_188544-17978.jpg?_wi=1", imageAlt: "Belgian Chocolate Selection" }
       ]}
     />
   </div>
@@ -96,7 +96,7 @@ export default function LandingPage() {
         { id: "1", brand: "Cadoro", name: "Belçika Şokoladlı Truff", price: "9.80 AZN", rating: 5, reviewCount: "120", imageSrc: "http://img.b2bpic.net/free-photo/hand-dark-glove-is-holding-waffle-cone-with-delicious-creamy-ice-cream-background-lemon-sorbet-decorated-with-mint-waffle-cones-which-are-served-stone-slate-black-bac_639032-538.jpg?_wi=2" },
         { id: "2", brand: "Cadoro", name: "Əl İstehsalı Dondurma", price: "4.90 AZN", rating: 5, reviewCount: "95", imageSrc: "http://img.b2bpic.net/free-photo/leaves-kernels-around-present_23-2147886041.jpg" },
         { id: "3", brand: "Cadoro", name: "Şokoladlı Lampone", price: "12.50 AZN", rating: 5, reviewCount: "80", imageSrc: "http://img.b2bpic.net/free-photo/delectable-wafer-rolls-chocolate-coated-wafer-wooden-plate-marble_114579-84025.jpg" },
-        { id: "4", brand: "Cadoro", name: "Dondurmalı Truff", price: "15.00 AZN", rating: 4, reviewCount: "45", imageSrc: "http://img.b2bpic.net/free-photo/indulgent-chocolate-truffles-wrapped-ornate-paper-generated-by-ai_188544-17978.jpg" },
+        { id: "4", brand: "Cadoro", name: "Dondurmalı Truff", price: "15.00 AZN", rating: 4, reviewCount: "45", imageSrc: "http://img.b2bpic.net/free-photo/indulgent-chocolate-truffles-wrapped-ornate-paper-generated-by-ai_188544-17978.jpg?_wi=2" },
         { id: "5", brand: "Cadoro", name: "Premium İsti Şokolad", price: "7.50 AZN", rating: 5, reviewCount: "200", imageSrc: "http://img.b2bpic.net/free-photo/close-up-shot-stone-slate-tray-served-with-tasty-creamy-orange-ice-cream-set-decorated-with-mint-waffle-cones-dark-table-black-background-metal-scoop-is-laying-nearby-sum_639032-560.jpg" },
         { id: "6", brand: "Cadoro", name: "Şirniyyat Seçimləri", price: "55.00 AZN", rating: 5, reviewCount: "65", imageSrc: "http://img.b2bpic.net/free-photo/cupcake-still-life_23-2148097701.jpg" }
       ]}
