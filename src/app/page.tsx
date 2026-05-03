@@ -37,7 +37,7 @@ export default function LandingPage() {
         { name: "Əlaqə", id: "contact" },
       ]}
       brandName="Cadoro"
-      button={{ text: "İndi Sifariş Et", href: "#products" }}
+      button={{ text: "İndi Sifariş Et", href: "https://wolt.com/en/aze/baku/venue/cadoro?srsltid=AfmBOorQuEQSN0ndSk1NAU8lsQbLY3YRhqG0Z6hUznpl4lKOfJwMO03E" }}
     />
   </div>
 
