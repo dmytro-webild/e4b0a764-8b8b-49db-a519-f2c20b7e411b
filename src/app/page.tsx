@@ -44,7 +44,7 @@ export default function LandingPage() {
   <div id="hero" data-section="hero" className="pt-12">
       <HeroBillboardGallery
       background={{ variant: "rotated-rays-static" }}
-      title="Azərbaycanın İlk Gelato Sənəti"
+      title="Azərbaycanda ilk artisanal gelato məkanı"
       description="Təbii inqrediyentlərlə hazırlanan əsl İtalyan gelato və premium Belçika şokolad dünyasına xoş gəlmisiniz."
       buttons={[{ text: "Menyumuzu Kəşf Et", href: "#products" }]}
       mediaItems={[
